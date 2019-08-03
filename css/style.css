@@ -1,0 +1,58 @@
+#playground{
+	margin-top: 75px;
+}
+
+.debug{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.todoItem{
+    padding:15px 15px 15px 15px;
+    border:1px solid #eee;
+    margin-bottom:5px;
+}
+
+.todoItem-done{
+    border-left:3px solid green;
+}
+
+.todoItem-toDo{
+    border-left:3px solid red;
+}
+
+.todoName{
+    font-size:20px;
+}
+
+.todoNameDiv{
+    margin-top:5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.toDoLineDone{
+    text-decoration: line-through;
+}
+
+.bigSize{
+    font-size:38px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;}
+
+.left-addon .glyphicon  { left:  0px;}.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }.right-addon input { padding-right: 30px; }
+
+.panel-padding-20{
+    padding:25px;
+}
